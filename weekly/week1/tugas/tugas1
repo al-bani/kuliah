@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+    int i,n;
+
+    printf("Latihan membuat array!\n");
+    printf("Banyaknya Mahasiswa : ");  scanf("%d", &n);
+    int mhs[n];
+
+    for (i = 1; i <= n; i++){
+        printf("Masukkan nilai mahasiswa ke %d : ", i);   scanf("%d", &mhs[i]);
+    }
+
+    for (i = 1; i <= n; i++){
+        printf("Nilai mahasiswa ke %d adalah : %d\n", i, mhs[i]);
+    }
+
+}
